@@ -1,0 +1,10 @@
+Appium ADB commands:
+
+adb devices
+
+adb shell "dumpsys window windows | grep -E 'mCurrentFocus'"
+
+adb start-server
+
+adb kill-server
+
